@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAudioView">
+        <attr name="audioColor" format="color"/>
+        
+    </declare-styleable>
+
+    <declare-styleable name="CircleRingView">
+        <attr name="circleRingColor" format="color"/>
+        <attr name="circleRingWidth" format="dimension"/>
+        <attr name="circleRingStartProgress" format="float"/>
+        <attr name="circleRingTextColor" format="color"/>
+        <attr name="circleRingTextSize" format="dimension"/>
+    </declare-styleable>
+    
+</resources>

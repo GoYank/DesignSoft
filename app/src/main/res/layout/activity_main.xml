@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.designsoft.view.CircleRingView
+        app:circleRingColor="#32CD99"
+        app:circleRingStartProgress="30"
+        app:circleRingTextColor="#202020"
+        app:circleRingTextSize="15sp"
+        app:circleRingWidth="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <com.example.designsoft.view.ClocksView
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <com.example.designsoft.view.CustomSwitchButton
+        android:id="@+id/csb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
